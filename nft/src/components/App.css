@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime');
+@font-face {
+  font-family: 'Virgo01';
+  src: local('Virgo01'), url(./virgo.ttf) format('truetype');}
+/* Styles go here */
+.centering-container{
+  background-color: #000000;
+}
+
+.logo{
+margin-left:5%;
+  padding-top:.5em;
+  padding-bottom:.5em;
+}
+.center {
+  margin: auto;
+  margin-top:11rem;
+  margin-bottom:3rem;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.clock{
+    font-size: 2px;
+    margin-top:3%;
+    text-align:center;
+}
+#datetime{
+  font-family:Virgo01;
+font-size:12px;
+}
+.brz-cp-color7 {
+    color: white;
+    font-size:16.5px;
+  font-family:Virgo01;
+margin-bottom:8px;
+margin-top:8px;
+line-height:25px;
+}
+.bold{
+  font-weight:900!important;
+  text-shadow: 1px 0 #888888;
+}
+.space{
+  margin-bottom:45px;
+}
+.center-horizontal:{
+  justify-content: center;
+  color:white;
+  align-items: center;
+  margin-top:0rem;
+  margin-bottom:0rem;
+  margin-right:auto;
+  margin-left:auto;
+  position:relative;
+}
+.token {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btn{
+  color:white;
+  font-size:0.8em;
+  max-width:8em;
+  font-weight:bold;
+  max-height:30%;
+  background-color: #32CD32;
+  border-color: white;
+  border-radius: -10px;
+  overflow:hidden;
+}
+.navbar{
+  font-family:Virgo01;
+  background-color:#000000;}
